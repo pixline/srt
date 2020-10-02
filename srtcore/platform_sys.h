@@ -75,6 +75,17 @@
 
 #endif
 
+#if BSD
+
+#ifdef SRT_IMPORT_EVENT
+   #include <sys/types.h>
+   #include <sys/event.h>
+   #include <sys/time.h>
+   #include <unistd.h>
+#endif
+
+#endif
+
 #if defined(__ANDROID__) || defined(ANDROID)
 
 #ifdef SRT_IMPORT_EVENT
