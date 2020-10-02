@@ -122,12 +122,12 @@ Follow the [Windows build instructions](docs/build-win.md).
 
 ## For FreeBSD:
 
-``shell
+```shell
 sudo pkg install tcl85 openssl cmake gcc automake 
 ./configure
 make
 sudo make install
-``
+```
 
 [appveyor-badge]: https://img.shields.io/appveyor/ci/Haivision/srt/master.svg?label=Windows
 [appveyor]: https://ci.appveyor.com/project/Haivision/srt
